@@ -1,0 +1,264 @@
+html,
+body {
+    background-color: #F85C54;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header {
+    background: url(http://klapomme.fr/wp-content/uploads/2018/11/wildcircus_bck.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+/* MISE EN PAGE LOGO */
+#logo,
+a {
+    margin-top: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #F85C54;
+    font-family: 'Amatic SC', cursive;
+}
+
+#logo {
+    font-size: 3rem
+}
+
+.w,
+.r,
+.l,
+.u {
+    color: #F85C54;
+}
+
+.i,
+.d,
+.s {
+    color: rgb(55, 118, 236);
+}
+
+.c {
+    color: rgb(245, 248, 84);
+}
+
+/* MISE EN PAGE MENU  */
+
+h1,
+h2,
+h3,
+#menu {
+    font-family: 'Amatic SC', cursive;
+}
+
+ul#menu {
+    font-size: 2.5em;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul#menu li {
+    list-style: none;
+    /* enlever les puces */
+    display: table-cell;
+}
+
+ul#menu li a {
+    text-decoration: none;
+    color: #F85C54;
+}
+
+
+/* MISE EN PAGE CATEGORIE */
+
+/* MISE EN PAGE CATEGORIE PERF */
+
+#performances {
+    display: inline-block;
+    background-color: #F85C54;
+}
+
+ul#perf {
+    list-style: none;
+    /* enlever les puces */
+    text-align: center;
+    padding-left: 0;
+}
+
+ul#perf li {
+    display: table-cell;
+    /* affichage en ligne */
+    font-family: "Gill Sans Extrabold", sans-serif;
+    color: white;
+    font-size: small;
+    padding: 10px;
+    width: 33%;
+}
+
+h1 {
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(55, 118, 236);
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-left: 30px;
+}
+
+/* MISE EN PAGE CATEGORIE ABOUT */
+
+#about-us-title {
+    padding-top: 30px;
+}
+
+#about-us {
+    background-color: rgb(255, 255, 255);
+    font-family: "Gill Sans Extrabold", sans-serif;
+    color: rgb(55, 118, 236);
+}
+
+#about-us .flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 89%;
+}
+
+#about-us .bottom p {
+    margin-left: 39px;
+}
+
+#danseuse-performance-cerceau-geant {
+    width: 43%;
+    margin: 0 40px 0 30px;
+    float: left;
+}
+
+#homme-en-equilibre-cheval-cirque {
+    width: 46%;
+    margin: 0 30px 0 40px;
+    float: right;
+}
+
+section#about-us p {
+    text-align: justify;
+    font-size: 2rem;
+}
+
+/* MISE EN PAGE CATEGORIE prix */
+
+#prices {
+    margin-bottom: 60px;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+/* encadrement tableau */
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    color: white;
+    background-color: #F85C54;
+}
+
+td,
+th
+/* Mettre une bordure sur les td ET les th */
+
+{
+    border: 0.1px solid rgb(255, 255, 255);
+    padding: 20px;
+}
+
+/* MISE EN PAGE CATEGORIE CONTACT */
+
+#title {
+    padding-top: 30px;
+}
+
+#contact-us {
+    background-color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact-us .all-contact {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-us .formulaire {
+    width: 50%;
+    text-align: center;
+}
+
+#contact-us input,
+textarea {
+    display: block;
+    background: #F85C54;
+    width: 100%;
+    margin-bottom: 3%;
+    padding: 12px;
+    text-align: left;
+    font-family: 'arial';
+    outline: none;
+    border: none;
+}
+
+#contact-us textarea {
+    /* taille fenetre block message */
+    height: 100px;
+}
+
+#contact-us button {
+    width: 30%;
+    padding: 10px;
+    background: #F85C54;
+    font-family: "Amatic SC";
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    transition: ease-in-out 1s;
+}
+
+#contact-us button:hover {
+    transform: scale(0.9);
+    transition: ease-in-out 0.05s;
+    cursor: pointer;
+}
+
+
+/* MISE EN PAGE CATEGORIE footer */
+
+footer {
+    background-color: #F85C54;
+    font-family: 'arial';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: .2rem;
+    margin-bottom: 30px;    
+}
+
+#footypo,
+a {
+    color: rgb(255, 255, 255);
+    letter-spacing: .2rem;
+}
